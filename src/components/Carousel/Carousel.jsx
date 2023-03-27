@@ -7,9 +7,9 @@ import stock2 from '../../assets/images/stock2.JPG'
 import stock3 from '../../assets/images/stock1.JPG'
 import stock4 from '../../assets/images/stock4.JPG'
 
-function IndividualIntervalsExample() {
+function Featured() {
   return (
-    <Carousel>
+    <Carousel pause={false}>
       <Carousel.Item interval={3500}>
         <img  width={400} height={500}  
           className="d-block h-80 cover"
@@ -66,4 +66,4 @@ function IndividualIntervalsExample() {
   );
 }
 
-export default IndividualIntervalsExample;
+export default Featured;

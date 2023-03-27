@@ -1,0 +1,32 @@
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    max-height: 200px;
+}
+
+container {
+    height: 105%;
+}
+
+.container__hover {
+    max-height: 160px;
+    object-fit: cover;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+.container__image {
+    max-height: 160px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.container__hover:hover {
+    height: 102%;
+    width: 102%;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 #043858;
+
+  }

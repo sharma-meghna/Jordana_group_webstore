@@ -30,13 +30,13 @@ const Footer = () => {
               <h4 className="quick__links-title">Top Categories</h4>
               <ListGroup className="mb-3">
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to='#'>Mobile Phones</Link>
+                  <Link to='#'>Cosmetics</Link>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to='#'>Modern Sofa</Link>
+                  <Link to='#'>Airpods</Link>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to='#'>Arm Chair</Link>
+                  <Link to='#'>Face Creams</Link>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0"> 
                   <Link to='#'>Smart Watches</Link>
@@ -69,7 +69,7 @@ const Footer = () => {
               <ListGroup className="footer__contact">
                 <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-2">
                   <span><i class="ri-map-pin-line"></i></span>
-                  <p>123, ZindaBazr, Sylhet, Bangladesh</p>
+                  <p>123, ZindaBazr, Sylhet, Paraguay</p>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-2">
                   <span><i class="ri-phone-line"></i></span>
