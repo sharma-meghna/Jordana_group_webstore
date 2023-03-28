@@ -1,7 +1,13 @@
 import React from 'react';
 
 import Helmet from "../components/Helmet/Helmet";
+import StoreHeader from "../components/Header/StoreHeader";
+import Featured from "../components/Carousel/Carousel"
+import StoreCategories from "../components/StoreCategory/StoreCategories"
 import "../styles/home.css";
+
+import jordanaLogo from "../assets/images/jordana_logo.jpeg"
+import milaniLogo from "../assets/images/milani_logo.png"
 
 import {Container, Row, Col} from "reactstrap";
 
@@ -9,6 +15,9 @@ const Home = () => {
 
   return (
     <Helmet title={'Home'}>
+	<Featured />
+    <StoreCategories/>
+            {/*
         <section className="hero__section">
             <Container>
                 <Row>
@@ -54,6 +63,7 @@ const Home = () => {
                 </Row>
             </Container>
         </section>
+  */}
     </Helmet>
   );
 }
