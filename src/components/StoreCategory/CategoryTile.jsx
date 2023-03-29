@@ -5,10 +5,10 @@ import "./category_tile.css"
 
 const CategoryTile = (props) => {
   return (
-    <div className="container__hover">
+    <div>
       <Container>
         <Row>
-          <Col>
+          <Col className="container__hover" >
             <img className="container__image" src={props.image}/>
           </Col>
         </Row>

@@ -2,12 +2,13 @@ import React from 'react';
 
 import Helmet from "../components/Helmet/Helmet";
 import StoreHeader from "../components/Header/StoreHeader";
-import Featured from "../components/Carousel/Carousel"
-import StoreCategories from "../components/StoreCategory/StoreCategories"
+import Featured from "../components/Carousel/Carousel";
+import StoreCategories from "../components/StoreCategory/StoreCategories";
 import "../styles/home.css";
 
-import jordanaLogo from "../assets/images/jordana_logo.jpeg"
-import milaniLogo from "../assets/images/milani_logo.png"
+import jordanaLogo from "../assets/images/jordana_logo.jpeg";
+import milaniLogo from "../assets/images/milani_logo.png";
+import ProductList from '../components/ProductCard/ProductList';
 
 import {Container, Row, Col} from "reactstrap";
 
@@ -17,6 +18,11 @@ const Home = () => {
     <Helmet title={'Home'}>
 	<Featured />
     <StoreCategories/>
+    <br></br>
+    <div className='RecommendedList'>
+        <div className='RecommendedProducts'>Recommended for you!</div>
+        <ProductList/>
+    </div>
             {/*
         <section className="hero__section">
             <Container>

@@ -18,9 +18,7 @@ const StoreHeader = (props) => {
           <div className="store__nav__wrapper">
             <div className="logo">
               <img src={props.logo} alt="logo" />
-              <div>
-                <h1>{props.storeName}</h1>
-              </div>
+              <h1>{props.storeName}</h1>
             </div>
           </div>
         </Row>

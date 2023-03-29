@@ -13,7 +13,6 @@ container {
 .container__hover {
     max-height: 160px;
     object-fit: cover;
-    transition: 1s;
     border-radius: 25px;
 }
 
@@ -21,12 +20,13 @@ container {
     max-height: 160px;
     object-fit: cover;
     border-radius: 25px;
+    transition: .5s;
 }
 
-.container__hover:hover {
-    height: 102%;
-    width: 102%;
+.container__image:hover {
     cursor: pointer;
-    box-shadow: 0 0 20px 0 #043858;
-
+    box-shadow: 0 0 10px 0 #043858;
+    height: 101%;
+    width: 101%;
   }
+
