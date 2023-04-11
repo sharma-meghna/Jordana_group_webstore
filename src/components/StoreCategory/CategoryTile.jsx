@@ -1,11 +1,13 @@
 import React from 'react'
 import {Container, Row, Col} from "reactstrap";
+import { Link } from "react-router-dom";
 
 import "./category_tile.css"
 
 const CategoryTile = (props) => {
   return (
     <div>
+      <Link to="/comingsoon">
       <Container>
         <Row>
           <Col className="container__hover" >
@@ -18,6 +20,7 @@ const CategoryTile = (props) => {
           </Col>
         </Row>
       </Container>
+      </Link>
     </div>
   )
 }

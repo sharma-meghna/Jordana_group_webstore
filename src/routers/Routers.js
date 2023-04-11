@@ -7,6 +7,7 @@ import ProductDetails from '../pages/ProductDetails';
 import Checkout from '../pages/Checkout';
 import Login from '../pages/Login';
 import Signup from '../pages/Signup';
+import ComingSoon from '../components/Coming soon/ComingSoon';
 
 
 const Routers = () => {
@@ -14,12 +15,13 @@ const Routers = () => {
     <Routes>
       <Route path="/" element={<Navigate to='home'/>} />
         <Route path="home" element={<Home/>}/>
-        <Route path='shop' element={<Shop/>}/>
+        <Route path='shop' element={<ComingSoon/>}/>
         <Route path='shop/:id' element={<ProductDetails/>}/>
-        <Route path='cart' element={<Cart/>}/>
+        <Route path='cart' element={<ComingSoon/>}/>
         <Route path='checout' element={<Checkout/>}/>
-        <Route path='login' element={<lLgin/>}/>
-        <Route path='signup' element={<Signup/>}/>
+        <Route path='login' element={<ComingSoon/>}/>
+        <Route path='signup' element={<ComingSoon/>}/>
+        <Route path='comingsoon' element={<ComingSoon/>}/>
     </Routes>
   );
 };
