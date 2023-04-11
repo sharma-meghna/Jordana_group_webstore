@@ -1,0 +1,12 @@
+
+.text {
+    height: 20px;
+    font-weight: 40px;
+    font-style: italic;
+    font-size: 60px;
+    position: absolute;
+    top:30%;
+    right: 30%;
+    color: var(--primary-color)
+    
+}
